@@ -4,7 +4,8 @@ The following is a set of guidelines to help keep push/pull and merge issues at 
 
 ## Step 1 : Find or choose an issue
 - Take a look at all the Open issues or create new issues
-- Choose an issue to work on and assign yourself to it, so everyone knows it's being worked on
+- Choose an issue to work on and assign yourself to it, so everyone knows it's being worked on 
+
 **Note** : Every change in this project should have an associated issue! 
 
 ## Step 2 : Fork the Repo.
@@ -21,7 +22,7 @@ $ git checkout <branch-name>
 $ git rebase upstream/<branch-name>
 ```
 ## Step 3 : Branch
-Create a new branch. Use its name to identify the issue you're addressing.
+- Create a new branch. Use its name to identify the issue you're addressing.
 ```
 # It will create a new branch with name Branch_Name and switch to that branch 
 $ git checkout -b branch_name
