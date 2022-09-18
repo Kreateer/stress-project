@@ -1,9 +1,7 @@
-# Contributing Guidelines
+# Working on this Repo
 
-This documentation contains a set of guidelines to help keep push/pull and merge issues at bay.
+The following is a set of guidelines to help keep push/pull and merge issues at bay.
 
-# Submitting Contributions
-To submit any contributions, please follow the process and workflow below.
 ## Step 1 : Find or choose an issue
 - Take a look at all the Open issues or create new issues
 - Choose an issue to work on and assign yourself to it, so everyone knows it's being worked on
@@ -23,7 +21,7 @@ $ git checkout <branch-name>
 $ git rebase upstream/<branch-name>
 ```
 ## Step 3 : Branch
-Create a new branch. Use its name to identify the issue your addressing.
+Create a new branch. Use its name to identify the issue you're addressing.
 ```
 # It will create a new branch with name Branch_Name and switch to that branch 
 $ git checkout -b branch_name
@@ -31,18 +29,19 @@ $ git checkout -b branch_name
 ## Step 4 : Work on the assigned issue
 - Work on the issue(s) assigned to you. 
 - Add all the files/folders needed.
-- After you've made changes or made your contribution to the project, add changes to the branch you've just created by:
+- After you've made changes or additions to the project, add your changes to the branch you've just created:
 ```
-# To add all new files to branch Branch_Name
+# To add all new changes to the branch you checked out
 $ git add .
 ```
 ## Step 5 : Commit
 - To commit give a descriptive message, so that everyone can understand what changes you've made. In the Git CLI, you can do this by:
 ```
-# This message get associated with all files you have changed
+# This message gets associated with all the files you have changed
 $ git commit -m 'message
 ```
 - **NOTE**: A Pull Request should have **only one commit**. Multiple commits should be **squashed**(compiled into one).
+
 ## Step 6 : Push to Remote
 - Once you're sure you've included everything you needed in your commit, upload your changes to your fork:
 ```
@@ -56,7 +55,7 @@ $ git push -u origin Branch_Name
 - Once your Pull Request has been submitted, it will be reviewed and merged if valid.
 
 ## Need more help?
-You can refer to the following articles on basics of Git and Github in case you are stuck:
+You can refer to the following articles on basics of Git and Github in case you need a refresher:
 - [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
 - [Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-an-issue-or-pull-request)
 - [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
