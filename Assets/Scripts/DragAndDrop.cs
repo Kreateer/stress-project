@@ -4,9 +4,26 @@ using UnityEngine;
 
 public class DragAndDrop : MonoBehaviour
 {
- void OnMouseDrag()
+    private bool stopHighlight;
+    private Color startColor;
+    void OnMouseDrag()
     {
         transform.position = GetMousePos();
+        GetComponent<Renderer>().material.color = startColor;
+    }
+
+    void OnMouseEnter()
+    {
+        if (stopHighlight == false)
+        {
+            startColor = GetComponent<Renderer>().material.color;
+            GetComponent<Renderer>().material.color = Color.green;
+        }
+    }
+
+    void OnMouseExit()
+    {
+        GetComponent<Renderer>().material.color = startColor;
     }
 
     Vector3 GetMousePos()
