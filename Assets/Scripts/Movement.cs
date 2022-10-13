@@ -19,6 +19,7 @@ public class Movement : MonoBehaviour
         if (movementType == true)
         {
             JustMove();
+            //Debug.Log("JustMove is being called");
         }
 
         else
@@ -38,11 +39,20 @@ public class Movement : MonoBehaviour
         mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
     }
 
-    void JustMove()
-    {
+    public void JustMove(bool isMoving = true)
+    {   // made public function to call in DoggoCollider.cs
         float translation = Input.GetAxis("Horizontal") * speed;
-        translation *= Time.deltaTime;
-        transform.Translate(translation, 0,0);
+        if (isMoving == true)
+        {
+            translation *= Time.deltaTime;
+            transform.Translate(translation, 0, 0);
+            //Debug.Log("Player is moving.");
+        }
+        else
+        {
+            speed = 0; // simply put player speed to 0 to stop moving
+            Debug.Log("Player speed set to: 0");
+        }
     }
 
     void Flip()
@@ -64,7 +74,8 @@ public class Movement : MonoBehaviour
             transform.position = Vector2.MoveTowards(transform.position, new Vector2(mousePosition.x,0), Time.deltaTime * 5);
             //transform.position = new Vector2(mousePosition.x * Time.deltaTime *5, 0);
         }
-        else {
+        else 
+        {
             //gonna add the thing for the thinking stopping thing
         }
     }
