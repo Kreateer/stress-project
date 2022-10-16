@@ -19,15 +19,16 @@ public class DoggoCollider : MonoBehaviour
     void OnTriggerEnter2D(Collider2D PlayerBoi)
     {
         if (PlayerBoi.tag == "Player")
-            Debug.Log("Doggo collider triggered!");
+            Debug.Log("<color=red>Doggo collider triggered!</color>");
             MC.GetComponent<CameraFollow>().isFollowing = false;
-            Debug.Log("Camera no longer following player!");
+            Debug.Log("<color=red>Camera no longer following player!</color>");
             //trigger so camera stops following player
 
             PlayerBoi.GetComponent<Movement>().JustMove(false);
-            Debug.Log("Player can no longer move!");
+            PlayerBoi.GetComponent<Movement>().spriteFlip = false;
+            Debug.Log("<color=red>Player can no longer move!</color>");
             PauseTimer();
-            //add code to stop player here (for x amount of time?)
+            //stop player for x seconds
     }
     private void PauseTimer() //function to call a timer for player pause effect
     {
@@ -35,14 +36,15 @@ public class DoggoCollider : MonoBehaviour
 
         IEnumerator PausingTime()
         {
-            Debug.Log("Started pause timer!");
+            Debug.Log("<color=yellow>Started pause timer!</color>");
             yield return new WaitForSeconds(5);
             enabled = false;
             MC.GetComponent<CameraFollow>().isFollowing = true; //optional; used for testing for now
-            Debug.Log("Camera following player again!");
+            Debug.Log("<color=lime>Camera following player again!</color>");
             PlayerBoi.GetComponent<Movement>().JustMove(true);
             PlayerBoi.GetComponent<Movement>().speed = 4;
-            Debug.Log("Player can move again!");
+            PlayerBoi.GetComponent<Movement>().spriteFlip = true;
+            Debug.Log("<color=lime>Player can move again!</color>");
         }        
     }
 }

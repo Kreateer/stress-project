@@ -552,3 +552,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 291261950}
   smoothness: 5
+  isFollowing: 0
