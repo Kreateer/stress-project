@@ -14,6 +14,7 @@ namespace Player
         private Rigidbody2D playerBody;
         public bool spriteFlip;
         //private RigidbodyConstraints2D rigidBodyConstraints;
+        private Animator playerWalk;
 
         void Start()
         {
@@ -21,6 +22,7 @@ namespace Player
             playerSprite = GetComponent<SpriteRenderer>();
             //playerBody = GetComponent<Rigidbody2D>();
             spriteFlip = true;
+            playerWalk = GetComponent<Animator>();
         }
 
         void Update()

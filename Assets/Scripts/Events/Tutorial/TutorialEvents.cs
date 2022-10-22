@@ -16,7 +16,7 @@ namespace Events
         {
             PlayerBoi = GameObject.FindWithTag("Player");
             mainCamera = GameObject.FindWithTag("MainCamera");
-            CV = GameObject.Find("ButtonCanvas");
+            //CV = GameObject.Find("ButtonCanvas");
         }
         
         /* Alright, lemme explain this here:
@@ -30,7 +30,7 @@ namespace Events
          
          Tl;dr: im lazy and enjoy clicking buttons :D */
 
-        public void RunBack()
+        /*public void RunBack()
         {
 
             //flip player then move toon back
@@ -59,6 +59,6 @@ namespace Events
             PlayerBoi.GetComponent<Movement>().JustMove(true);
             PlayerBoi.GetComponent<Movement>().speed = 4;
             PlayerBoi.GetComponent<Movement>().spriteFlip = true;
-        }
+        }*/
     }
 }
