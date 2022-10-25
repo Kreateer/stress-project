@@ -6,7 +6,6 @@ namespace Player
 {
     public class CameraFollow : MonoBehaviour
     {
-        //public Camera mainCamera;
         public GameObject player;
         private Vector3 initialOffset;
         private Vector3 cameraPosition;
@@ -27,7 +26,6 @@ namespace Player
             isFollowing = true;
             halfHeight = Camera.main.orthographicSize;
             halfWidth = Camera.main.aspect * halfHeight;
-            //"It's working! It's working!".gif
         }
 
         // Update is called once per frame
@@ -64,7 +62,6 @@ namespace Player
                     Mathf.Clamp(transform.position.x, clampLeftPosition + halfWidth, clampRightPosition - halfWidth),
                     Mathf.Clamp(transform.position.y, clampBottomPosition + halfHeight, clampTopPosition - halfHeight),
                     transform.position.z);
-                //Debug.Log("Clamped called");
             }
         }
     }
