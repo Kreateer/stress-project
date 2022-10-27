@@ -11,7 +11,7 @@ namespace Events
         private GameObject DoggyStyle; // collider
         private GameObject PlayerBoi; // player object
         private GameObject MC; // main camera
-        private GameObject CV;
+        //private GameObject CV;
 
         // Start is called before the first frame update
         void Start()
@@ -20,8 +20,8 @@ namespace Events
             MC = GameObject.FindWithTag("MainCamera");
             PlayerBoi = GameObject.FindWithTag("Player");
             //start with canvas disabled
-            CV = GameObject.Find("ButtonCanvas");
-            CV.SetActive(false);
+            //CV = GameObject.Find("ButtonCanvas");
+            //CV.SetActive(false);
         }
 
         void OnTriggerEnter2D(Collider2D PlayerBoi)
@@ -36,7 +36,7 @@ namespace Events
                 PlayerBoi.GetComponent<Movement>().spriteFlip = false;
                 Debug.Log("<color=red>Player can no longer move!</color>");
                 //enable canvas:
-                CV.SetActive(true);
+                //CV.SetActive(true);
                 //PauseTimer();
                 //stop player for x seconds
         }
