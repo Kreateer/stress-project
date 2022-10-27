@@ -45,6 +45,10 @@ namespace ThoughtBubble
             {
                 DetectAndDeactivateItems();
             }
+            else if(isDragged == false)
+            {
+                transform.position = originalPosition;
+            }
 
             if (transform.localScale.y < 0f)
             {
