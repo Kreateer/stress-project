@@ -6,44 +6,50 @@ namespace ThoughtBubble
 {
     public class DragAndDrop : MonoBehaviour
     {
+        // make sure that multiple item CANNOT be dragged at the same time!!!
+
+
+        private GameObject playerMan;
         private bool stopHighlight;
         private Color startColor;
-        public Transform thoughPosition;
-        private Transform originalPosition;
-        private bool isDragged = false;
-        private bool inBubble = false;
-        public Collider2D mainCollider;
+        private bool isDragged;
+        private Vector3 originalPosition;
+        private Vector3 orginalScale;
+        private bool isPrefab;
+        private bool deActivated;
+        private bool stopFollow;
+        //private GameObject Copy;
+        public GameObject[] otherItems;
 
         void Start()
         {
-            originalPosition = thoughPosition;
+            originalPosition = transform.position;
+            orginalScale = transform.localScale;
+            otherItems = GameObject.FindGameObjectsWithTag("Item");
+            stopHighlight = false;
+            isDragged = false;
+            isPrefab = false;
+            deActivated = false;
+            stopFollow = false;
+            ////var muzzleFlashPrefab = Resources.Load("Prefabs/MuzzleFlash") as GameObject;
+            playerMan = GameObject.FindWithTag("Player");
+            //Instantiate(Copy, new Vector3(0, 0, 0), Quaternion.identity);
+            //call the script that will be associated with the player
+            //write the code to clone the item
         }
 
         void Update()
         {
-            if (isDragged == false && inBubble == false)
+
+            if(isDragged == true)
             {
-                transform.position = thoughPosition.position;
+                DetectAndDeactivateItems();
             }
 
-            if (isDragged == false && inBubble == true && stopHighlight == true)
+            if (transform.localScale.y < 0f)
             {
-                if (transform.localScale.y > 0f)
-                {
-                    transform.localScale += new Vector3(0.1F, .1f, .1f) * -3f * Time.deltaTime;
-                }
-                else
-                {
-                    //do the animation thingy associated with the animation
-                }
-            }
-
-
-            OnMouseDragging();
-
-            if (Input.GetKeyUp(KeyCode.Mouse1))
-            {
-                isDragged = false;
+                transform.position = originalPosition;
+                transform.localScale = orginalScale;
             }
         }
 
@@ -51,9 +57,7 @@ namespace ThoughtBubble
         {
             if (collider.tag == "MainBrain")
             {
-                inBubble = true;
-                Transform position = collider.GetComponent<Transform>();
-                transform.position = position.position;
+                stopFollow = true;
                 stopHighlight = true;
             }
         }
@@ -62,32 +66,35 @@ namespace ThoughtBubble
         {
             if (collider.tag == "MainBrain")
             {
-                inBubble = false;
+                stopFollow = false;
+ 
             }
         }
 
         void OnMouseUp()
         {
             isDragged = false;
+            DetectAndActivateItems();
         }
 
-        void OnMouseDragging()
+        void OnMouseDrag()
         {
-            if (inBubble == false)
+            isDragged = true;
+            GetComponent<Renderer>().material.color = startColor;
+            if (stopFollow == false)
             {
-                if (Input.GetKey(KeyCode.Mouse0) || Input.GetKey(KeyCode.Mouse1))
-                {
-                    isDragged = true;
-                    transform.position = GetMousePos();
-                    GetComponent<Renderer>().material.color = startColor;
-                }
-
+                transform.position = GetMousePos();
             }
+        }
+
+        void OnMouseOver()
+        {
+           //when the script is associated with the current mouse positioning, chang animation of player though bubble yada yada 
         }
 
         void OnMouseEnter()
         {
-            if (stopHighlight == false)
+            if (stopHighlight == false && deActivated == false)
             {
                 startColor = GetComponent<Renderer>().material.color;
                 GetComponent<Renderer>().material.color = Color.green;
@@ -96,14 +103,27 @@ namespace ThoughtBubble
 
         void OnMouseExit()
         {
-            GetComponent<Renderer>().material.color = startColor;
+            if (deActivated == false)
+            {
+                GetComponent<Renderer>().material.color = startColor;
+                //also script to make sure that the animation should stop within the player mind perhaps??
+            }
+        }
 
-            //Vector2 mousecoordinates = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            //if (!mainCollider.OverlapPoint(mousecoordinates))
-            //{
-            //    print("out2");
-            //    inBubble = false;
-            //}
+        void DetectAndDeactivateItems()
+        {
+            foreach (GameObject otherItem in otherItems)
+            {
+                otherItem.GetComponent<DragAndDrop>().deActivated = true;
+            }
+        }
+
+        void DetectAndActivateItems()
+        {
+            foreach (GameObject otherItem in otherItems)
+            {
+                otherItem.GetComponent<DragAndDrop>().deActivated = false;
+            }
         }
 
         Vector3 GetMousePos()
