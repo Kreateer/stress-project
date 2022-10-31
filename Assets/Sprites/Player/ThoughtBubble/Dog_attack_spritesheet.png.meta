@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -115,7 +115,1309 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4277
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bafbd38ae8a1fc4cafbef29693b200d
+      internalID: 893454704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 4277
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ad08c34fe0a2a449faa23711b1bfb9
+      internalID: 772881107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 4277
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d361982dd2e57254eb8d893cb9929060
+      internalID: -634467767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 3036
+        y: 4277
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6896b8aa3d4f74fa7184c5519ef42d
+      internalID: 1457983026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 4048
+        y: 4277
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e3b459a012c614288a992bad89d646
+      internalID: -1216452412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 5060
+        y: 4277
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b7f7767ec435940abc74c6104f16d7
+      internalID: -1848473769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 6072
+        y: 4277
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b7662cb02e4d84e8de5c344972efb2
+      internalID: 326463703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 7084
+        y: 4277
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab641a2caea90f468ce7e1fb7219bd3
+      internalID: 1784018234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3666
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc9c5de93d3f6040befcdd5b2256ecd
+      internalID: -185944316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 3666
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c750e11e026174e8a8932b666cf410
+      internalID: 898380321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 3666
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90ddb2535fe55b4ca12f4a0b26844d9
+      internalID: 357184498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 3036
+        y: 3666
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7bdbead173f1724a8220b9c7f79419a
+      internalID: 304308864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 4048
+        y: 3666
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71860b907595be84481605eb80e6bec3
+      internalID: 1361560224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 5060
+        y: 3666
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04b6e6c0c43d5644bb132a63ac47002
+      internalID: -862511000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 6072
+        y: 3666
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eaf84e6ddde3a34cae8a7572fd01679
+      internalID: -1708069525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 7084
+        y: 3666
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52c40ef22ca02a49a07184486602361
+      internalID: 540509464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3055
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd663530c8ae994b8db1f0ccbee7b9b
+      internalID: 1352423811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 3055
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec9a7bc14c92274595adfdd53fbad09
+      internalID: -904004213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 3055
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d7e0bec1265234c81a8b3ae27fa3c9
+      internalID: 22774203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 3036
+        y: 3055
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970236b1170e87b41a517a3ebcc945ae
+      internalID: -2017568150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 4048
+        y: 3055
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d4d0e3d8ac1c949a10a7c9f31c1ee7
+      internalID: -1135574922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 5060
+        y: 3055
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04878ee82da8e064eb316eace1b7b072
+      internalID: -877322278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 6072
+        y: 3055
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aaac7ac9141e1b4ca92ef6a1e83035d
+      internalID: 2031063305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 7084
+        y: 3055
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b996aa1af340d648bccf20a60621941
+      internalID: 1005152891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2444
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71a3c7933c636848978f2d097bfe84a
+      internalID: -1539993087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 2444
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55780c439cc323a4095022116d670ec9
+      internalID: 1311416414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 2444
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4037544548c8f4d489eff5c81dca3996
+      internalID: -642878311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 3036
+        y: 2444
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4ec074f3d7a2f40a981f77dd65f357
+      internalID: 839802325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 4048
+        y: 2444
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c517714f91cb0c41a9ab5c0619dde53
+      internalID: -1276968333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 5060
+        y: 2444
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344ef30ebfa753f409bf8416179bfc41
+      internalID: 1753699517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 6072
+        y: 2444
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d20b069d1a033d44a6c21611a955320
+      internalID: -943024254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 7084
+        y: 2444
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0593dc51094b04140b721813856cebb3
+      internalID: -287310808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1833
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6971309d920a36d4e8590c2a22499f03
+      internalID: -2000489949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 1833
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5526ab563488d8c4cbc86bf843669129
+      internalID: 1612249322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 1833
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0829287427ad6a45ba7043cea21ef81
+      internalID: -127051481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 3036
+        y: 1833
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599666631987e264680ffb403dd46711
+      internalID: 749242013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 4048
+        y: 1833
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330fbb65e504f4343b5d670978067f2b
+      internalID: -1822823351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 5060
+        y: 1833
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c772ba6d68cac4f98cfabbe35c0cd7
+      internalID: -89351830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 6072
+        y: 1833
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6464c25c9baa4204db0693c971d1e113
+      internalID: -156753047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 7084
+        y: 1833
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e32a2e8a494474a93ac7f971502af5
+      internalID: 205847218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1222
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc89281e08a607642bb9b1e0b1ab352d
+      internalID: 251121568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 1222
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ef401c298a13f4d86365fcf7322220
+      internalID: 191478812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 1222
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87dec420bd26b940b46ceb09dea042d
+      internalID: 1685045061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 3036
+        y: 1222
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72344d408f448b47a6aa929a0bda7b7
+      internalID: 665249840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 4048
+        y: 1222
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad81c06ca1cdb8c4e851afe4ba46b001
+      internalID: 990720773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 5060
+        y: 1222
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e6615eb4ca66e4786c08fdb39d7dad
+      internalID: -313199981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 6072
+        y: 1222
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5430c2c26149b40b28c3dd1f760368
+      internalID: -185375496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 7084
+        y: 1222
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4abf7f7ac63dd5c47b0d6d3d6c3d4afd
+      internalID: -1784157211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 611
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560e4ce647aad9d4ba40940e38d6437c
+      internalID: -2088414671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 611
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f570da666053afc45bf5caed20b40cac
+      internalID: 642498326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 611
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43935348ccf58c45b98c858e78d76e8
+      internalID: -1168051831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 3036
+        y: 611
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54cfb89c8ee201c4689e684d01e4b657
+      internalID: -1257329625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 4048
+        y: 611
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30c259d640d6be429973b694f750950
+      internalID: -550069046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 5060
+        y: 611
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f221467fbc1d04981c16d5a5834461
+      internalID: -264820708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 6072
+        y: 611
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ffed968deb730841b5806b22ffa0b86
+      internalID: -871660575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 7084
+        y: 611
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a77fff56e06a641a2283580c00eea5
+      internalID: -652038726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549276b5101cfd04bbb16df80ee8a307
+      internalID: 1830940959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 0
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa0776f8d24b4e44b2dfbb2d1b27dd9
+      internalID: -106840365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 0
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e853b8a8a5807634ca08a00ea4db20a3
+      internalID: -1823295526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 3036
+        y: 0
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757ede9033dca0f46a628b8b843371aa
+      internalID: -649077106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 4048
+        y: 0
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ba8c017f6d03342a14cb4c9f56683f
+      internalID: 326386052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog_attack_spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 5060
+        y: 0
+        width: 1012
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46800e0e17b1c043ac3842c01aa2a5b
+      internalID: -1241636810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +1428,69 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dog_attack_spritesheet_57: -106840365
+      Dog_attack_spritesheet_58: -1823295526
+      Dog_attack_spritesheet_20: -1135574922
+      Dog_attack_spritesheet_36: -1822823351
+      Dog_attack_spritesheet_54: -871660575
+      Dog_attack_spritesheet_12: 1361560224
+      Dog_attack_spritesheet_44: 990720773
+      Dog_attack_spritesheet_26: -642878311
+      Dog_attack_spritesheet_8: -185944316
+      Dog_attack_spritesheet_18: 22774203
+      Dog_attack_spritesheet_34: -127051481
+      Dog_attack_spritesheet_0: 893454704
+      Dog_attack_spritesheet_61: -1241636810
+      Dog_attack_spritesheet_1: 772881107
+      Dog_attack_spritesheet_14: -1708069525
+      Dog_attack_spritesheet_49: 642498326
+      Dog_attack_spritesheet_17: -904004213
+      Dog_attack_spritesheet_28: -1276968333
+      Dog_attack_spritesheet_21: -877322278
+      Dog_attack_spritesheet_13: -862511000
+      Dog_attack_spritesheet_11: 304308864
+      Dog_attack_spritesheet_31: -287310808
+      Dog_attack_spritesheet_33: 1612249322
+      Dog_attack_spritesheet_25: 1311416414
+      Dog_attack_spritesheet_35: 749242013
+      Dog_attack_spritesheet_9: 898380321
+      Dog_attack_spritesheet_55: -652038726
+      Dog_attack_spritesheet_19: -2017568150
+      Dog_attack_spritesheet_22: 2031063305
+      Dog_attack_spritesheet_42: 1685045061
+      Dog_attack_spritesheet_29: 1753699517
+      Dog_attack_spritesheet_32: -2000489949
+      Dog_attack_spritesheet_46: -185375496
+      Dog_attack_spritesheet_41: 191478812
+      Dog_attack_spritesheet_60: 326386052
+      Dog_attack_spritesheet_10: 357184498
+      Dog_attack_spritesheet_4: -1216452412
+      Dog_attack_spritesheet_43: 665249840
+      Dog_attack_spritesheet_39: 205847218
+      Dog_attack_spritesheet_6: 326463703
+      Dog_attack_spritesheet_52: -550069046
+      Dog_attack_spritesheet_7: 1784018234
+      Dog_attack_spritesheet_3: 1457983026
+      Dog_attack_spritesheet_2: -634467767
+      Dog_attack_spritesheet_56: 1830940959
+      Dog_attack_spritesheet_51: -1257329625
+      Dog_attack_spritesheet_30: -943024254
+      Dog_attack_spritesheet_38: -156753047
+      Dog_attack_spritesheet_40: 251121568
+      Dog_attack_spritesheet_27: 839802325
+      Dog_attack_spritesheet_47: -1784157211
+      Dog_attack_spritesheet_24: -1539993087
+      Dog_attack_spritesheet_16: 1352423811
+      Dog_attack_spritesheet_23: 1005152891
+      Dog_attack_spritesheet_53: -264820708
+      Dog_attack_spritesheet_5: -1848473769
+      Dog_attack_spritesheet_37: -89351830
+      Dog_attack_spritesheet_45: -313199981
+      Dog_attack_spritesheet_48: -2088414671
+      Dog_attack_spritesheet_50: -1168051831
+      Dog_attack_spritesheet_59: -649077106
+      Dog_attack_spritesheet_15: 540509464
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
