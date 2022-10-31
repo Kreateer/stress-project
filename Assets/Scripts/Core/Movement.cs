@@ -59,13 +59,28 @@ namespace Player
                 //playerBody.constraints = RigidbodyConstraints2D.None;
                 //playerBody.MovePosition(new Vector2((transform.position.x + moveVector.x * speed * Time.deltaTime),
                 //    transform.position.y + moveVector.y * speed * Time.deltaTime));
+				if (Input.GetAxis("Horizontal") > 0 || Input.GetAxis("Horizontal") < 0)
+				{
+				//check input
                 translation *= Time.deltaTime;
                 transform.Translate(translation, 0, 0);
+				//playerWalk.SetBool("isWalking", true);
+				playerWalk.SetFloat("Walking", 0);
+				//playerWalk.Play("Base Layer.Player_Walk");
                 //Debug.Log("Player is moving.");
+				}
+				else
+				{
+					//playerWalk.SetBool("isWalking", false);
+					playerWalk.SetFloat("Walking", 1);
+				}
             }
             else
             {
                 speed = 0; // simply put player speed to 0 to stop moving
+				//playerWalk.SetBool("isWalking", false);
+				//playerWalk.Play("Base Layer.Player_Idle");
+				playerWalk.SetFloat("Walking", 1);
                 Debug.Log("<color=red>Player speed set to: 0</color>");
                 //playerBody.constraints = RigidbodyConstraints2D.FreezeAll;
             }
